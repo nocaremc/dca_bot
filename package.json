@@ -1,0 +1,28 @@
+{
+  "name": "dca_bot",
+  "version": "1.0.0",
+  "description": "Dollar Cost Averaging bot",
+  "main": "bot.js",
+  "scripts": {
+    "dca" : "node ./bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nocaremc/dcabot.git"
+  },
+  "keywords": [
+    "dca",
+    "crypto",
+    "bot"
+  ],
+  "author": "Nocare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nocaremc/dcabot/issues"
+  },
+  "homepage": "https://github.com/nocaremc/dcabot#readme",
+  "dependencies": {
+    "ccxt": "^1.34.34",
+    "dotenv": "^8.2.0"
+  }
+}
